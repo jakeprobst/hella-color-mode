@@ -15,7 +15,7 @@
 				 "#ffc000" "#ffff80" "#c08080" "#808080" "#bbbbbb" "#9099ff"
 				 "#e0e0e0"))
 
-(defconst +hella-color-default-regex+ "[a-zA-Z0-9\-\+&_/]+")
+(defconst +hella-color-default-regex+ "[a-zA-Z0-9\-\+&_/!<>]+")
 (defvar hella-color-regex nil)
 
 ;; ripped from my python implementation
